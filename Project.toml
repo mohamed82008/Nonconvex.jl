@@ -26,7 +26,7 @@ SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
 Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
 
 [compat]
-ADNLPModels = "0.1"
+ADNLPModels = "0.1, 0.2"
 Cbc = "0.8"
 ChainRulesCore = "0.10"
 ForwardDiff = "0.10"
