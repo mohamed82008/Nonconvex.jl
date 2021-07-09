@@ -83,7 +83,7 @@ function optimize!(workspace::HyperoptWorkspace)
     ub = ub === nothing ? getmax(model) : ub
     @assert all(isfinite, lb) && all(isfinite, ub) throw("Please use finite bounds for the starting point search.")
 
-    @info "Multistart algorithm started."
+    @info "Multistart algorithm started. "
     @assert searchspace_size >= 1 "searchspace_size must be a positive integer. "
 
     # Generate a search space

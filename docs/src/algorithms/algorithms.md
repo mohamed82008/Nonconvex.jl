@@ -7,3 +7,4 @@
 - [Mixed integer nonlinear programming](minlp.md)
 - [Multi-start optimization](hyperopt.md)
 - [Surrogate-assited Bayesian optimization](surrogate.md)
+- [Multiple Trajectory Search](mts.md)

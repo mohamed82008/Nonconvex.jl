@@ -15,6 +15,7 @@ makedocs(
             "algorithms/minlp.md",
             "algorithms/hyperopt.md",
             "algorithms/surrogate.md",
+            "algorithms/mts.md",
         ],
         "Gradients, Jacobians and Hessians" => "gradients.md",
     ],
